@@ -11,7 +11,7 @@ def entrada():
             a = float(input("Informe o Primeiro Valor: \n"))
             b = float(input("Informe o Segundo Valor: \n"))
             print(60*"-")
-            c = int(input("Escolha de acordo com a opção desejada: \n 1 - Soma \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão \n -----------------------------------------------------------\n"))
+            c = int(input("Escolha de acordo com a opção desejada: \n 0 - Sair \n 1 - Soma \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão \n -----------------------------------------------------------\n"))
             print(60*"-")
             
             if c == 0:
